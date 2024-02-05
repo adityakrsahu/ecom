@@ -50,11 +50,11 @@ const Footer = () => {
                     </div>
 
                     <div>
-                        <a href="" target='_blank'>
+                        <NavLink href="" target='_blank'>
                             
                             <FaYoutube className='icons' />
 
-                        </a>
+                        </NavLink>
                     </div>
 
 

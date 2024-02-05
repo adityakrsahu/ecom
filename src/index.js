@@ -2,13 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { AppC } from './contacts/productcontact';
+import { AppProvider } from './contacts/productcontact';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <AppC>
-      <App />
-    </AppC>
+      <AppProvider>
+            <App />
+      </AppProvider>
 
 );
 
